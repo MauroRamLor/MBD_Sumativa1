@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A27CA45-6764-3599-56BB-F3213F827344" name="ASIGNACION">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 16:53:39 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asignacion" id="118DF7C8-7533-0512-0A12-E5462B03CAE3">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 16:53:58 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_asignacion" id="758CB49B-C057-C7F1-0900-BE351F31E948">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 16:54:31 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_animal" id="72BE687D-CE16-D904-AAB1-336DA6B60413">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 16:55:39 UTC</createdTime>
+<generatorID>6715D0E7-F6BC-B885-6E86-C16DA3DE3F9D</generatorID>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<referedAttribute>2A89AF82-FE4C-6D4D-B8FE-49F10C0746BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_voluntario" id="BFBC75EA-1E25-7823-5614-7668B943EC70">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 16:56:04 UTC</createdTime>
+<generatorID>58679E96-50F0-1B79-31A5-5CBC1D87A9E1</generatorID>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<referedAttribute>B26DDC42-64A2-07A6-84EA-3F87E98B9010</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E38B5C17-A4F4-ABEF-B032-73F9E591857C" name="ASIGNACION PK">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 16:54:22 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>118DF7C8-7533-0512-0A12-E5462B03CAE3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

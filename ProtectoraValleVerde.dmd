@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProtectoraValleVerde" id="4B1ECFD7-4643-815A-AF87-D1CB897E637A" version="3.5">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 00:46:55 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4B1ECFD7-4643-815A-AF87-D1CB897E637A</designId>
+</OSDM_Design>
