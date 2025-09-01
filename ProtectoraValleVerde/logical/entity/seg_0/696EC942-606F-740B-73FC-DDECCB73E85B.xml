@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="696EC942-606F-740B-73FC-DDECCB73E85B" name="EVENTO">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 00:47:17 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_evento" id="3857A7E2-CDD5-0E7B-E599-3C8BF42A5DD7">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 00:50:26 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_evento" id="F9ADAE32-F648-8DF1-80BA-2EC7FFDBBD1D">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 00:50:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[rescate / adopcion]]></commentInRDBMS>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_evento" id="5147AF9A-FF99-7918-B33F-C0B12D12E70D">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 00:51:26 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="detalle_evento" id="F1ED0317-35E3-C833-756C-6D0AB8827E22">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 00:51:40 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_animal" id="9A663124-19A2-F034-7D57-9BF415E85DA5">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 01:01:51 UTC</createdTime>
+<generatorID>70240D87-1C91-A786-EC1F-787CA7818555</generatorID>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<referedAttribute>2A89AF82-FE4C-6D4D-B8FE-49F10C0746BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F79BC11-A9C1-CE41-E9D6-4EDACBF8DB88" name="EVENTO PK">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 00:50:40 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3857A7E2-CDD5-0E7B-E599-3C8BF42A5DD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

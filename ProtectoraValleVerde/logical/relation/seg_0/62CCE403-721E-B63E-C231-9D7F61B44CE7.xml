@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="62CCE403-721E-B63E-C231-9D7F61B44CE7">
+<createdBy>mauri</createdBy>
+<createdTime>2025-09-01 16:58:55 UTC</createdTime>
+<ownerDesignName>ProtectoraValleVerde</ownerDesignName>
+<engineerTo>
+<item key="5E7C720C-4DAA-2201-88E4-790D4537B142" value="true"/>
+</engineerTo>
+<sourcePk>CBC44B41-69D5-C9CB-311E-1ACD3327B7B7</sourcePk>
+<targetPk>7610225D-7DDF-A7D5-70F2-C53B2820E12A</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1047DAE5-9ACF-391E-86C1-33F19D023FF1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DFD25528-E247-5A33-E04B-BC4AAA20568B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
